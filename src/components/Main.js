@@ -166,7 +166,7 @@ const Main = () => {
                     Say hi !...
                 </motion.h2>
             </Contact>
-            <BLOG to="/portfolio//blog">
+            <BLOG to="/portfolio/blog">
                 <motion.h2
                 initial={{
                     y:-200,
@@ -182,7 +182,7 @@ const Main = () => {
                     Blog
                 </motion.h2>
             </BLOG>
-            <WORK to="/portfolio//work" click={+click}>
+            <WORK to="/portfolio/work" click={+click}>
                 <motion.h2
                 initial={{
                     y:-200,
@@ -199,7 +199,7 @@ const Main = () => {
                 </motion.h2>
             </WORK>
             <BottomBar>
-            <ABOUT to="/portfolio//about" click={+click}>
+            <ABOUT to="/portfolio/about" click={+click}>
                 <motion.h2
                 initial={{
                     y:200,
@@ -215,7 +215,7 @@ const Main = () => {
                     About.
                 </motion.h2>
             </ABOUT>
-            <SKILLS to="/portfolio//skills">
+            <SKILLS to="/portfolio/skills">
                 <motion.h2
                 initial={{
                     y:200,
