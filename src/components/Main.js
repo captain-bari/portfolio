@@ -132,7 +132,7 @@ const Main = () => {
     const handleClick = () => setClick(!click);
 
     return (
-        <motion.MainContainer
+        <MainContainer
             // exit={{  // not only duration is working for some eason animation is not
             //     x:"-1000px",
             //     transition: {ease:'easeInOut' , duration:2}
@@ -236,7 +236,7 @@ const Main = () => {
 
             </Container>
             {click ? <Intro click={click} /> : null }
-        </motion.MainContainer>
+        </MainContainer>
     )
 }
 
