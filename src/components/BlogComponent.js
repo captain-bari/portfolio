@@ -5,10 +5,10 @@ import styled from 'styled-components'
 
 
 const Box = styled(motion(NavLink))`
-width: calc(8rem + 10vw);
+width: calc(8rem + 8vw);
 text-decoration: none;
 height: 20rem;
-padding: 0.8rem;
+padding: 2.5rem;
 color: ${props => props.theme.text};
 border: 2px solid ${props => props.theme.text};
 backdrop-filter: blur(2px);
